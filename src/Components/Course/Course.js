@@ -6,6 +6,7 @@ const Course = () => {
   return (
     <div>
       <h1>course no {id}</h1>
+      <p>added</p>
     </div>
   );
 };
