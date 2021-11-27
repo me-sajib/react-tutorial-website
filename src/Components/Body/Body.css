@@ -1,0 +1,29 @@
+.course-body {
+  background-color: #9048e7a1;
+  padding: 100px 0;
+}
+.course-body h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.course-body h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(24, 50, 201);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.imagesCard img {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card {
+  box-shadow: 3px 2px 8px 1px grey;
+}
